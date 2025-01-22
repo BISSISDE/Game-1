@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header id="StartPart">
+      <div class="DivButtonStart">
+        <button class="buttonStart" id="buttonStart">Start game</button>
+      </div>
+      <h1 class="TextAlga">AL</h1>
+      <h1 class="TextAlgaContinue">GA</h1>
+    </header>
+
+    <span id="TimerSpan" style="display: none">
+      <div class="insiderow">
+        <h2 id="timer"></h2>
+        <div class="rowbuttons">
+          <button id="reset">Stop</button>
+          <button id="start">Start</button>
+        </div>
+      </div>
+    </span>
+
+ <main style="display: none" id="QuestionPart">
+        
+      <div class="FirstQuestion" style="display: block">
+        <div class="column">
+          <h1 id="colorTrueFalse">
+            Which method should you use to remove spaces?
+          </h1>
+          <button class="QuestionOneButton">noProbel()</button>
+          <button class="QuestionOneButton">remote()</button>
+          <button class="QuestionOneButton">tirm()</button>
+          <button class="QuestionOneButton">strip()</button>
+        </div>
+        <div class="row">
+          <img
+            src="https://ae04.alicdn.com/kf/S658ea6ba91ce4ab3ac9f11789cd290feN.jpg_480x480.jpg"
+            alt="Probel"
+          />
+          <div class="Itog2">
+            <h2 id="TextTrueFalse1">Your response is :</h2>
+          </div>
+        </div>
+      </div>
+
+      <div class="SecondQuestion" style="display: none">
+        <div class="column">
+          <h1 id="colorTrueFalseTwo">
+            What are the advantages of using async/await?
+          </h1>
+          <button class="QuestionTwoButton">
+            It generates errors and works with them.
+          </button>
+          <button class="QuestionTwoButton">
+            It is a synchronous function.
+          </button>
+          <button class="QuestionTwoButton">Uses .than/.catch</button>
+          <button class="QuestionTwoButton">
+            Async/Await helps to write like synchronous code, avoiding overload
+            and making it easier to read.
+          </button>
+        </div>
+        <div class="row">
+          <img src="/async await.jpg" alt="" />
+          <div class="Itog">
+            <h2 id="TextTrueFalse2">Your response is :</h2>
+          </div>
+        </div>
+      </div>
+
+      <div class="ThirdQuestion" style="display: none;">
+        <div class="column">
+          <h1 id="colorTrueFalseTree">
+            Identify The translation of the word / Ambitious /
+          </h1>
+          <button class="QuestionTreeButton">Мейірімді</button>
+          <button class="QuestionTreeButton">Жігерлі</button>
+          <button class="QuestionTreeButton">Қырсық</button>
+          <button class="QuestionTreeButton">Сараң</button>
+        </div>
+        <div class="row">
+          <img
+            src="https://i0.wp.com/hwrkmagazine.co.uk/wp-content/uploads/_pda/2023/06/3.jpg?fit=1200%2C800&ssl=1"
+            alt="Probel"
+          />
+          <div class="Itog3">
+            <h2 id="TextTrueFalse3">Your response is :</h2>
+          </div>
+        </div>
+      </div>
+
+      <div class="End" style="display: none;">
+        <h1>Game Over</h1>
+        <h2 id="ResultScore">Your result: </h2>
+      </div>
+
+
+    </main>
+    <script src="script.js"></script>
+  </body>
+</html>

@@ -1,0 +1,184 @@
+@import url('https://fonts.googleapis.com/css2?family=Lilita+One&family=Noto+Serif:ital,wght@0,100..900;1,100..900&family=Oleo+Script:wght@400;700&family=Permanent+Marker&display=swap');
+body {
+  height: 98vh;
+  background: url(https://images6.alphacoders.com/132/1322314.jpeg) no-repeat center center/cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+      font-family: "Oleo Script", serif;
+}
+
+/* Header style  */
+
+.buttonStart{
+  background-color: #222;
+  color: white;
+  border: none;
+  padding: 30px 40px;
+  font-size: 25px;
+  border-radius: 10px;
+  margin: 15px 0;
+  cursor: pointer;
+  transition: all 0.3s;
+  width: 250px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
+.DivButtonStart{
+  background-color: rgba(0, 0, 0, 0.7);
+  border-radius: 20px;
+  padding: 80px 90px;
+  width: fit-content;
+  box-shadow: 0 15px 35px rgba(0, 0, 0, 0.3);
+  color: white;
+}
+.TextAlga{
+  font-size: 150px;
+  letter-spacing: 190px;
+  position: absolute;
+  top: 220px;
+  left: 90px;
+  color: midnightblue;
+  font-weight: 900;
+}
+.TextAlgaContinue{
+  font-size: 150px;
+  letter-spacing: 190px;
+  position: absolute;
+  top: 220px;
+  right: -90px;
+  color: midnightblue;
+  font-weight: 900;
+}
+/* Main Style  */
+
+.FirstQuestion , .SecondQuestion , .ThirdQuestion{
+  background-color: rgba(0, 0, 0, 0.7);
+  border-radius: 20px;
+  padding: 40px;
+  width: 700px;
+  box-shadow: 0 15px 35px rgba(0, 0, 0, 0.3);
+  color: white;
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  height: 550px;
+}
+.SecondQuestion {
+  height: 650px;
+}
+.FirstQuestion h1 , .SecondQuestion h1 , .ThirdQuestion h1{
+    z-index: 100;
+    width: 700px;
+}
+.column{
+  display: flex;
+  flex-direction: column;
+}
+.column button {
+  background-color: #222;
+  color: white;
+  border: none;
+  padding: 20px 30px;
+  font-size: 18px;
+  border-radius: 10px;
+  margin: 15px 0;
+  cursor: pointer;
+  transition: all 0.3s;
+  width: 250px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+button:hover {
+  background-color: #444;
+  transform: scale(1.1);
+}
+.SecondQuestion img{
+  position: absolute;
+  top: 200px;
+  right: 90px;
+  width: 300px;
+  height: auto;
+  border-radius: 10px;
+}
+.FirstQuestion img {
+  position: absolute;
+  top: 180px;
+  right: 130px;
+  width: 200px;
+  height: auto;
+  border-radius: 10px;
+}
+.ThirdQuestion img{
+    position: absolute;
+  top: 200px;
+  right: 90px;
+  width: 300px;
+  height: auto;
+  border-radius: 10px;
+}
+.Itog{
+  position: absolute;
+  left: 400px;
+  bottom: 80px;
+}
+.Itog2{
+  position: absolute;
+  left: 400px;
+  bottom: 80px;
+}
+.Itog3{
+    position: absolute;
+  left: 400px;
+  bottom: 80px;
+}
+.insiderow button {
+  background-color: #222;
+  color: white;
+  border: none;
+  padding: 15px 25px;
+  font-size: 18px;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: all 0.3s;
+  width: 150px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+
+}
+button{
+      font-family: "Lilita One", serif;
+}
+.insiderow{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+.rowbuttons{
+    gap: 10px;
+    width: 300px;
+    display: flex;
+    flex-direction: row;
+}
+#TimerSpan{
+  background-color: rgba(0, 0, 0, 0.7);
+  border-radius: 20px 0px 0px 20px;
+  padding: 200px 15px;
+  width: fit-content;
+  box-shadow: 0 15px 35px rgba(0, 0, 0, 0.3);
+  color: white;
+}
+
+/* End */
+.End{
+background-color: rgba(0, 0, 0, 0.7);
+  border-radius: 0px 20px 20px 0px;
+  padding: 40px;
+  width: 400px;
+  box-shadow: 0 15px 35px rgba(0, 0, 0, 0.3);
+  color: white;
+  display: flex;
+  flex-direction: row;
+  position: relative;
+}
+.End h1{
+  text-align: center;
+}
