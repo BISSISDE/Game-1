@@ -76,9 +76,11 @@ function displayQuestion(index) {
 
       if (i === question.correctIndex) {
         textTrueFalse.textContent = "Correct!";
+        textTrueFalse.style.color = "green";
         score++;
       } else {
         textTrueFalse.textContent = "Incorrect!";
+        textTrueFalse.style.color = "red";
       }
 
       nextButton.style.display = "none";
